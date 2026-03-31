@@ -126,7 +126,7 @@ if __name__ == "__main__":
     with open(f"/home/ocean/下载/YX_ROBOT/legged_lab/deploy/deploy_mujoco/configs/{config_file}", "r") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
 
-        policy_path = "/home/ocean/下载/YX_ROBOT/logs/YX_new_flat/2026-03-31_00-24-45/exported/policy.pt"
+        policy_path = "/home/ocean/下载/YX_ROBOT/logs/YX_new_flat/2026-03-31_10-44-40/exported/policy.pt"
 
         xml_path = "/home/ocean/下载/YX_ROBOT/legged_lab/resources/YX-1/scene.xml"
 

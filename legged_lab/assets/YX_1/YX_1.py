@@ -43,11 +43,11 @@ YX_new_CFG = ArticulationCfg(
         ),
     ),
     init_state=ArticulationCfg.InitialStateCfg(
-        pos=(0.0, 0.0, 0.668),
+        pos=(0.0, 0.0, 0.73),
         joint_pos={
             ".*_pitch_joint": -0.1,
-            ".*_knee_joint": 0.3,
-            ".*_ankle_joint": -0.2,
+            ".*_knee_joint": 0.55,
+            ".*_ankle_joint": -0.45,
         },
         joint_vel={".*": 0.0},
     ),

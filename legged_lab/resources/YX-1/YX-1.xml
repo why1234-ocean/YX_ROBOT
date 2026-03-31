@@ -24,7 +24,7 @@
   </asset>
 
   <worldbody>
-    <body name="base_link"   pos="0 0 0.7">
+    <body name="base_link"   pos="0 0 0.75">
       <inertial pos="3.5259e-05 -1.21619e-05 0.0608416" quat="0.499989 0.500019 -0.500011 0.499981" mass="3.08899" diaginertia="0.0264841 0.0219225 0.0130808"/>
       <joint name="floating_base_joint" type="free" limited="false" actuatorfrclimited="false"/>
       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.498039 0.498039 0.498039 1" mesh="base_link"/>
