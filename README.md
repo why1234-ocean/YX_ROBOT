@@ -43,6 +43,7 @@ pip install -e .
 
 ```bash
 python legged_lab/scripts/train.py --task=YX1_flat --num_envs=4096    --headless --max_iterations=10000
+python legged_lab/scripts/train.py --task=YX_new_flat --num_envs=4096    --headless --max_iterations=10000
 
 python legged_lab/scripts/play.py --task=YX1_flat --num_envs=40
 
